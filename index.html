@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Educativo - Sequência Lógica</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="upload-area">
+            <h1>Área de Upload</h1>
+            <form id="upload-form">
+                <input type="file" id="image-upload" accept="image/*" multiple>
+                <button type="button" id="confirm-button">Confirmar</button>
+            </form>
+            <div id="preview-area"></div>
+        </div>
+        <div class="student-container" hidden>
+            <h2>Área do Aluno</h2>
+            <div class="slots-container"></div>
+            <div class="uploaded-images"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
